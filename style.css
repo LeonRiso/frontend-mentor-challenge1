@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 20vh;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fraunces', serif;
+}
+
+.card{
+    position: absolute;
+    float: center;
+    height: 50vh;
+    width: 35vw;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+}
+
+.card > img{
+    height: 50vh;
+    width:25vw;
+}
+
+#cardcontent{
+    margin: 25px;
+    display: grid;
+}
+
+#cardcontent > h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight:500;
+}
+
+#cardcontent > p{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight:500;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    height: 55px;
+    width: 250px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+#value{
+    text-align: baseline;
+    color: hsl(158, 36%, 37%)
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:hsla(157, 37%, 22%, 0.979)
+}
